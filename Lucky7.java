@@ -46,7 +46,7 @@ public class Lucky7{
         int randomNumber3 = random.nextInt(10);
          System.out.println("Sait numerot: " + "\n" + randomNumber1 + " - " + randomNumber2 + " - " + randomNumber3 + " .");
          if(randomNumber1 == 7 && randomNumber2 == 7 && randomNumber3 == 7){
-            System.out.println("Onnea, voitit pelin!" + "\n" + "Voitit 7€ lisää!");
+            System.out.println("Wau upeaa! Sait kolme peräkkäistä 7! Onnea, voitit pelin!" + "\n" + "Voitit tästä 7€ lisää!");
             raha+=7;
             } 
              else if(randomNumber1 == 7 && randomNumber2  == 7 || randomNumber2 == 7 && randomNumber3 == 7 || randomNumber1 == 7 && randomNumber3 == 7){
