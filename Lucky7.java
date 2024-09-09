@@ -7,9 +7,6 @@ public class Lucky7{
     Scanner in = new Scanner(System.in);
     String input;
     String inputraha;
-    //3 numeroa väliltä 1-10
-    // Jos 7 kerro voiti, jos ei kerro hävisit
-    //sen jlk peli loppuu
     int raha;
     
     System.out.println("Hei! Pelataan peliä!" + "\n " + "Arvon sinulle 3 numeroa. Jos yksi tai useampi numeroista on numero 7 - voitat pelin!");
